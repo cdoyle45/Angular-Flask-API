@@ -1,0 +1,8 @@
+<h1>
+  {{name}}
+</h1>
+<input [(ngModel)] = "name" placeholder="name" type="text">
+<button raised class="custom indigo" (click)="getOne(name)">GetOne</button>
+<button raised class="custom indigo" (click)="getAll()">GetAll</button>
+<button raised class="custom indigo" (click)="createUser(name)">Post</button>
+
